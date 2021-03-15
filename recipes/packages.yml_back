@@ -1,0 +1,7 @@
+resources:
+ - type: "package"
+   name: "wordpress"   
+   name: "php"
+   name: "libapache2-mod-php"
+   name: "mysql-server"
+   name: "php-mysql"

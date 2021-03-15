@@ -1,0 +1,51 @@
+{
+  "revision_id": "c1e7e5bac66fadd64458dc7d89129b5b5c4ec744dc8859dd6196559831b304f8",
+  "name": "wordpress_vk",
+  "run_list": [
+    "recipe[wordpress_vk::default]"
+  ],
+  "included_policy_locks": [
+
+  ],
+  "cookbook_locks": {
+    "wordpress_vk": {
+      "version": "0.1.0",
+      "identifier": "56d37cd30cb36ff456dfe8a1113a882a6a34c064",
+      "dotted_decimal_identifier": "24439381067346799.68775413997965626.149715751845988",
+      "source": ".",
+      "cache_key": null,
+      "scm_info": {
+        "scm": "git",
+        "remote": null,
+        "revision": null,
+        "working_tree_clean": false,
+        "published": false,
+        "synchronized_remote_branches": [
+
+        ]
+      },
+      "source_options": {
+        "path": "."
+      }
+    }
+  },
+  "default_attributes": {
+
+  },
+  "override_attributes": {
+
+  },
+  "solution_dependencies": {
+    "Policyfile": [
+      [
+        "wordpress_vk",
+        ">= 0.0.0"
+      ]
+    ],
+    "dependencies": {
+      "wordpress_vk (0.1.0)": [
+
+      ]
+    }
+  }
+}

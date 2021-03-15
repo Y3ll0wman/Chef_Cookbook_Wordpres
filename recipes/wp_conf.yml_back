@@ -1,0 +1,11 @@
+resources:
+ - type: "file"
+   name: "/etc/wordpress/config-localhost.php"
+   content: "<?php
+define('DB_NAME', 'wordpress_db');
+define('DB_USER', 'wordpress_db');
+define('DB_PASSWORD', '2fo02ss');
+define('DB_HOST', 'localhost');
+define('DB_COLLATE', 'utf8_general_ci');
+define('WP_CONTENT_DIR', '/usr/share/wordpress/wp-content');
+?>"
