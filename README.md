@@ -1,4 +1,3 @@
-# wordpress_vk
+# Chef_Wordpress_Cookbok
 
-TODO: Enter the cookbook description here.
-
+Chef cookbok для разворачивания Wordpress на ubuntu-18.
